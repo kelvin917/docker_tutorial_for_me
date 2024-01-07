@@ -3,7 +3,8 @@
 # Installation Own Dockerfile 
 1. Install `Docker Desktop`
 2. Open your location file
-3. use vscode open file 
+3. use vscode open file
+4. create your own project. For example: `hello.js` file here.
 5. create `Dockerfile` file
 6. edit `Dockerfile` ## Dockerfile
 
