@@ -8,7 +8,7 @@
 5. create `Dockerfile` file
 6. edit `Dockerfile` ## Dockerfile
 7. run terminal
-8. docker build -t <ProjectName> <ProjectLocation> `docker build -t hello_docker .` (. means you is inside project location that have `Dockerfile`)
+8. docker build -t <ProjectName> <ProjectLocation> `docker build -t hello_docker .` (. means you already inside project location that have `Dockerfile`)
 9. `docker images` - check the project is already successful or not.
 
 
