@@ -24,3 +24,15 @@ COPY . .
 CMD <run Code> [example:('node hello.js')]
 ```
 
+### Docker run localhost code 
+`docker run -p 5173:5173 <project_name>`
+
+### Check Docker port
+`docker ps`
+
+### Stop Docker port
+`docker stop <container_id>` - container id can use the first character. For example: `docker stop as2`
+
+### remove Docker daemon
+`docker rm <conatiner_id> --force`
+
