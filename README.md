@@ -10,6 +10,7 @@
 7. run terminal
 8. docker build -t <ProjectName> <ProjectLocation> `docker build -t hello_docker .` (. means you already inside project location that have `Dockerfile`)
 9. `docker images` - check the project is already successful or not.
+10. * if you want to run operating system path. you can use `docker run -it <ProjectName> sh`.
 
 
 ## Dockerfile (example - node.js)
