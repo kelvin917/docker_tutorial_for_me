@@ -49,6 +49,12 @@ CMD <run Code> [example:('node hello.js')]
         usePolling: true
       }
     }
-    ``` 
+    ```
+
+
+ ## Publish docker images
+ 1. `docker login`
+ 2. `docker tag <project-name> <username/project-name>`
+ 3. `docker push <username/project-name>`
 
 
