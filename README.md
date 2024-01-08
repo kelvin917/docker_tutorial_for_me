@@ -37,5 +37,8 @@ CMD <run Code> [example:('node hello.js')]
 `docker rm <conatiner_id> --force`
 
 ### RUNNING LIVE CODE DOCKER 
-`docker run -p 5173:5173 -v "$(pwd):/app" react-project` - [(-v stands VOLUME) , ($(pwd) stands for current project location)]
+`docker run -p 5173:5173 -v "$(pwd):/app" -v /app/node_modules react-project` 
+- [(-v stands VOLUME) , ($(pwd) stands for current project location)]
+- the first `-v` is our project location, the second `-v` is inside docker new project file location.  
+
 
