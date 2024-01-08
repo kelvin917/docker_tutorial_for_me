@@ -30,6 +30,9 @@ CMD <run Code> [example:('node hello.js')]
 ### Check Docker port
 `docker ps`
 
+### RUNNING LIVE CODE DOCKER 
+`docker run -p 5173:5173 -v "$(pwd):/app" react-project`
+
 ### Stop Docker port
 `docker stop <container_id>` - container id can use the first character. For example: `docker stop as2`
 
